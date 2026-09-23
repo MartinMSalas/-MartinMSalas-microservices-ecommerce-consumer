@@ -1,4 +1,4 @@
-package ar.microservices.communication.consumer;
+package ar.microservices.communication.consumer.resttemplate;
 
 import org.springframework.boot.restclient.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
