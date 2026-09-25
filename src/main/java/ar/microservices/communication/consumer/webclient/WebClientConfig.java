@@ -6,18 +6,18 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 /*
  * Author: m
- * Date: 23/9/26
- * Project Name: Communication
+ * Date: 9/22/26
+ * Project Name: communication
  * Description: beExcellent
  */
 @Configuration
 public class WebClientConfig {
 
     @Bean
-    public WebClient webClient() {
-        return WebClient.builder().baseUrl("http://localhost:9091/").build();
+    public WebClient webClient(){
 
+        return WebClient.builder()
+                .baseUrl("http://localhost:9091")
+                .build();
     }
-
-
 }
