@@ -7,8 +7,8 @@ import reactor.core.publisher.Mono;
 
 /*
  * Author: m
- * Date: 23/9/26
- * Project Name: Communication
+ * Date: 9/22/26
+ * Project Name: communication
  * Description: beExcellent
  */
 @Service
@@ -22,6 +22,7 @@ public class ProviderWebClient {
                 .uri("/instance-info")
                 .retrieve()
                 .bodyToMono(String.class);
-
     }
+
+
 }
